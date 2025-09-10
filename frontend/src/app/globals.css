@@ -10,3 +10,30 @@ body {
     color: var(--foreground);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Scrollbar Track */
+.scrollbar-custom::-webkit-scrollbar {
+  height: 6px; 
+  width: 3px;  
+  background: transparent; 
+  scrollbar-width: thin;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #1a1d29; 
+  border-radius: 8px; 
+  scrollbar-width: thin;
+
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background-color: #1a1d29; 
+  scrollbar-width: thin;
+
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background-color: inherit;
+  scrollbar-width: thin;
+
+}
