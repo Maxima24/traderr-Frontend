@@ -1,9 +1,9 @@
-import DashboardPage from '@/features/dashoard/Dashboard'
+import PortfolioPage from '@/features/portfolio/Portfolio'
 import React from 'react'
 
 function page() {
   return (
-    <DashboardPage/>
+   <PortfolioPage/>
   )
 }
 
