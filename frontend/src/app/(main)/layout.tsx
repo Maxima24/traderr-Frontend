@@ -33,17 +33,17 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
           onClick={() => setOpenMobile(false)}
         />
       )}
-      
+
       {/* Navbar */}
       <Navbar />
-      
+
       {/* Sidebar */}
       <AppSidebar />
-      
+
       {/* Main Content Area */}
       <SidebarInset>
-        <main className="pt-16 min-h-screen">
-          <div className="p-4 md:p-6">
+        <main className="pt-16 h-[100dvh]">
+          <div className="md:p-4 h-full max-lg:pl-22 max-sm:px-0 bg-[#02051B]">
             {children}
           </div>
         </main>
@@ -58,7 +58,7 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen bg-[#0f1117]">
+    <div className="min-h-screen bg-[#030564]">
       <SidebarProvider defaultOpen={true}>
         <DashboardContent>
           {children}
