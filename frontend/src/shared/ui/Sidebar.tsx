@@ -151,9 +151,10 @@ export const Sidebar = React.forwardRef<
         >
           {React.Children.map(children, (child) => {
             if (React.isValidElement(child)) {
+              const element = child as React.ReactElement<any>
               return React.cloneElement(child, {
+                ...element.props,
                 className: cn("flex items-center justify-center"),
-                ...child.props,
               })
             }
             return child;

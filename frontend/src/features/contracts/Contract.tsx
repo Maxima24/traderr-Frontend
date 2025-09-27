@@ -71,14 +71,14 @@ const ContractsPage = () => {
     }
   ];
 
-  const StatusBadge = ({ status }) => (
+  const StatusBadge = ({ status }:{status:string}) => (
     <div className="flex items-center gap-2">
       <div className="w-2 h-2 bg-green-500 rounded-full"></div>
       <span className="text-sm font-medium text-white">{status}</span>
     </div>
   );
 
-  const ActionButton = ({ action, variant = 'primary' }) => {
+  const ActionButton = ({ action, variant = 'primary' }:{action:string,variant?:string}) => {
     const isMessage = action === 'Message';
     return (
       <button 
