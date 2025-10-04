@@ -47,12 +47,12 @@ const AppSidebar: React.FC = () => {
   const mainNavItems: SidebarItem[] = [
     { title: "Dashboard", icon: Home, href: "/dashboard" },
     { title: "Traders", icon: Users, href: "/traders" },
-    { title: "Market", icon: TrendingUp, href: "/market" },
+    // { title: "Market", icon: TrendingUp, href: "/market" },
     { title: "Contracts", icon: FileText, href: "/contracts" },
     { title: "Portfolio", icon: Briefcase, href: "/portfolio" },
     { title: "Earnings", icon: DollarSign, href: "/earnings" },
-    { title: "Transactions", icon: Receipt, href: "/transactions" },
-    { title: "Leaderboard", icon: Trophy, href: "/leaderboard" },
+    // { title: "Transactions", icon: Receipt, href: "/transactions" },
+    // { title: "Leaderboard", icon: Trophy, href: "/leaderboard" },
   ];
 
   const bottomNavItems: SidebarItem[] = [

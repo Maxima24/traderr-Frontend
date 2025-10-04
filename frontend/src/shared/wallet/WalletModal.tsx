@@ -54,8 +54,8 @@ export function WalletModal({ isOpen, onClose }: WalletModalProps) {
   // Filter to only show OKX and Petra wallets in installable section
   const installableWallets = allInstallableWallets.filter(
     (wallet) =>
-      wallet.name.toLowerCase().includes("petra") ||
-      wallet.name.toLowerCase().includes("okx")
+      wallet.name.toLowerCase().includes("petra") 
+      // || wallet.name.toLowerCase().includes("okx")
   );
 
   const handleConnect = useCallback(
