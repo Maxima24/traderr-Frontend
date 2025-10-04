@@ -30,7 +30,7 @@ export function RoleSelector() {
         animate={{ opacity: 1, y: 0 }}
         className="bg-[#00000040]/80 backdrop-blur-sm rounded-2xl p-8 border border-[#2D2B2F] hover:border-[#6366F1]/50 transition-colors duration-300"
       >
-        <h3 className="text-2xl font-bold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-[#6366F1] via-[#9333EA] to-[#EC4899]">
+        <h3 className="text-2xl font-bold text-center mb-8 bg-clip-text text-white">
           Join as...
         </h3>
 
